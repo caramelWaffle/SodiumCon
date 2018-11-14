@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="toDayDanger">#F44336</color>
+    <color name="toDayWarning">#FFC107</color>
+    <color name="todaySafe">#4CAF50</color>
+    
+    
+    
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="tabsScrollColor">#8a140e</color>
+    <color name="btn_food_press">#FBD0BF</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#F44336</color>
+    <color name="bg_screen2">#E91E63</color>
+    <color name="bg_screen3">#9C27B0</color>
+    <color name="bg_screen4">#673AB7</color>
+    <color name="bg_screen5">#FFFFFF</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#808080</color>
+    <color name="dot_dark_screen2">#808080</color>
+    <color name="dot_dark_screen3">#808080</color>
+    <color name="dot_dark_screen4">#808080</color>
+    <color name="dot_dark_screen5">#808080</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#FFFFFF</color>
+    <color name="dot_light_screen2">#FFFFFF</color>
+    <color name="dot_light_screen3">#FFFFFF</color>
+    <color name="dot_light_screen4">#FFFFFF</color>
+    <color name="dot_light_screen5">#FFFFFF</color>
+    <color name="fastfoodslidetab">#FFFF8D</color>
+    <color name="blackWheel">#95989A</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+    <color name="dot_light_screen1s">#FF5722</color>
+    <color name="dot_dark_screen2s">#FFCCBC</color>
+
+    <array name="array_dot_active2">
+        <item>@color/dot_light_screen1s</item>
+        <item>@color/dot_light_screen1s</item>
+        <item>@color/dot_light_screen1s</item>
+        <item>@color/dot_light_screen1s</item>
+        <item>@color/dot_light_screen1s</item>
+    </array>
+
+    <array name="array_dot_inactive2">
+        <item>@color/dot_dark_screen2s</item>
+        <item>@color/dot_dark_screen2s</item>
+        <item>@color/dot_dark_screen2s</item>
+        <item>@color/dot_dark_screen2s</item>
+        <item>@color/dot_dark_screen2s</item>
+    </array>
+
+
+
+
+</resources>

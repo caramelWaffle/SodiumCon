@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+        android:layout_marginLeft="12dp"
+        android:layout_alignLeft="@+id/LogoFont"
+        android:id="@+id/logo"
+        android:layout_width="126dp"
+        android:layout_height="130dp"
+
+        android:layout_marginTop="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/LogoFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:freezesText="true"
+        android:text="@string/sodium"
+        android:textColor="@android:color/white"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/LogoFont2"
+        android:layout_width="127dp"
+        android:layout_height="4dp"
+        android:layout_below="@+id/LogoFont"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/line" />
+
+    <TextView
+
+        android:id="@+id/LogoFont3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LogoFont2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:freezesText="true"
+        android:text="@string/conqueror"
+        android:textColor="@android:color/white"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_getStarted"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/LogoFont3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/seletor_white"
+        android:elevation="2dp"
+        android:text="@string/get_started"
+        android:textColor="#FF5722"
+        android:textSize="16dp" />
+
+
+    <TextView
+
+        android:layout_above="@+id/TvTerm2"
+        android:id="@+id/TvTerm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/by_continuing_you_agree_to_the"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:clickable="true"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:text="@string/terms_and_condition"
+        android:id="@+id/TvTerm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

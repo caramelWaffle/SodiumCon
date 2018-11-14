@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ListView
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:focusable="false"
+        android:id="@+id/CookFavlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/empviewThaifav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/emptrytext"
+            android:layout_centerInParent="true"
+            android:textSize="24dp"
+            android:text="@string/find_your_favourite_menu_here"
+            android:freezesText="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/emptrytext"
+            android:src="@drawable/up_arrow"
+            android:id="@+id/emptryImg"
+            android:layout_width="200dp"
+            android:layout_height="150dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

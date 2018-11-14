@@ -1,0 +1,144 @@
+<resources>
+    <string name="cancel">ยกเลิก</string>
+    <string name="ok">ตกลง</string>
+    <string name="app_name">Sodium Conqueror</string>
+    <string name="openDrawer">Open menu</string>
+    <string name="closeDrawer">Close menu</string>
+    <string name="start">เริ่มเลย</string>
+    <string name="next">ถัดไป</string>
+    <string name="Heal_name">ข้อมูลด้านสุขภาพ</string>
+    <string name="addfood">เพิ่มในรายการอาหารปรุงเอง</string>
+    <string name="title">ข้อตกลงและเงื่อนไข</string>
+    <string name="agree">ยอมรับ</string>
+    <string name="disagree">ไม่ยอมรับ</string>
+    <string name="termcontent">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+1914 translation by H. Rackham
+
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+
+Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+
+"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</string>
+    <string name="please_wait">โปรดรอซักครู่</string>
+    <string name="input_hint">ชื่ออาหาร</string>
+    <string name="input_prefill"></string>
+    <string name="terms_and_condition"><u>ข้อตกลงและเงื่อนไข</u></string>
+    <string name="eat">คุณต้องการที่จะรับประทาน</string>
+    <string name="what">"หรือไม่ ?"</string>
+    <string name="term_text">ข้อตกลงและเงื่อนไข</string>
+
+    <string name="get_started">เริ่มต้น</string>
+    <string name="by_continuing_you_agree_to_the">เมื่อดำเนินการต่อ นั้นถือว่าคุณยอมรับ</string>
+    <string name="name">ชื่อ</string>
+    <string name="age">อายุ</string>
+    <string name="weight_kg">น้ำหนัก (กก)</string>
+    <string name="height_cm">ส่วนสูง  (ซม)</string>
+    <string name="disease_identification">โรคประจำตัว</string>
+    <string name="submit">บันทึก</string>
+    <string name="Gender">เพศ</string>
+    <string name="miligrams_left">Miligrams left</string>
+    <string name="today_eat">บันทึกประจำวัน</string>
+    <string name="diary">ไดอารี่</string>
+    <string name="eat_now">รับประทานทันที</string>
+    <string name="generic_food">อาหารทั่วไป</string>
+    <string name="thai_food">อาหารไทย</string>
+    <string name="not_available">ยังไม่เปิดให้บริการ</string>
+    <string name="health_information">ข้อมูลด้านสุขภาพ</string>
+    <string name="basic_information">ข้อมูลทั่วไป</string>
+    <string name="tutorial">วิธีใช้งาน</string>
+    <string name="about">เกี่ยวกับ</string>
+    <string name="setting">การตั้งค่า</string>
+    <string name="log_out">ออกจากระบบ</string>
+    <string name="Overview">ทั่วไป</string>
+    <string name="food">อาหาร</string>
+    <string name="fact">เกร็ดความรู้</string>
+    <string name="Leaderboard">ระบบจัดอันดับ</string>
+    <string name="Generic_Food">อาหารทั่วไป</string>
+    <string name="Genneric_fav">รายการโปรด</string>
+    <string name="find_you_favourite_menu_here">ค้นหาเมนูโปรดของคุณได้ที่นี่</string>
+    <string name="find_your_first_menu_here">ค้นหาเมนูแรกของคุณได้ที่นี่</string>
+    <string name="dwant_to_eat">"คุณต้องการที่จะรับประทาน "</string>
+    <string name="ok2">ตกลง</string>
+    <string name="cancel2">ปฏิเสธ</string>
+    <string name="generic">อาหารทั่วไป</string>
+    <string name="add_to_diary">"เพิ่มในสมุดบันทึกแล้ว"</string>
+    <string name="what_do_you_want">คุณต้องการที่จะบริโภคอะไร</string>
+    <string name="go">ตกลง</string>
+    <string name="result">ผลการค้นหาของ </string>
+    <string name="add">เพิ่ม</string>
+    <string name="to_list">สู่รายการหรือไม่ ?</string>
+    <string name="add2">เพิ่ม</string>
+    <string name="cancel3">ปฏิเสธ</string>
+    <string name="load">กรุณารอซักครู่</string>
+    <string name="fav">รายการโปรด</string>
+    <string name="thai_foods">อาหารไทย</string>
+    <string name="find_your_favourite_menu_here">ค้นหาเมนูโปรดของคุณได้ที่นี่</string>
+    <string name="cook_your_first_menu_here">ปรุงอาหารแรกของคุณได้ที่นี่</string>
+    <string name="want_to_eat">คุณต้องการที่จะรับประทาน </string>
+    <string name="ok3">ตกลง</string>
+    <string name="cancel4">ปฏิเสธ</string>
+    <string name="food_name">ชื่ออาหาร</string>
+    <string name="seasoning">การปรุง</string>
+    <string name="sodium_amount">ปริมาณโซเดียม : </string>
+    <string name="sodium_amount_3000_mg">ปริมาณโซเดียม : 3000 mg</string>
+    <string name="seasoning2">เครื่องปรุง</string>
+    <string name="amount">จำนวน</string>
+    <string name="unit">หน่วย</string>
+    <string name="abouts">เกี่ยวกับ</string>
+    <string name="Account_setting">ตั้งค่าบัญชีผู้ใช้</string>
+    <string name="Diary">ไดอารี่</string>
+    <string name="Privacy">Privacy Policy</string>
+    <string name="terms">Term and conditions</string>
+    <string name="Todat_eat">บันทึกประจำวัน</string>
+    <string name="Add_food">เพิ่มสู่รายการ</string>
+    <string name="skip">ข้าม</string>
+    <string name="next2">ถัดไป</string>
+    <string name="clear_all">ล้างทั้งหมด</string>
+    <string name="settingmenu">การตั้งค่า</string>
+    <string name="delete">ลบข้อมูล</string>
+    <string name="language">ภาษา</string>
+    <string name="Lang">ภาษาไทย</string>
+    <string name="addlang">เลือกภาษา</string>
+    <string name="start2">เข้าใจแล้ว</string>
+    <string name="slide_text1">ร่างกายของคนเรา ไม่ควรได้รับ\nโซเดียมเกิน 2,400mg ต่อวัน</string>
+    <string name="slide_text2">ในขณะที่ เกลือ 1 ช้อนชา\nมีปริมาณโซเดียมมากถึง 2,000 mg</string>
+    <string name="slide_text3">คนไทยมีนิสัยที่ชอบรับประทานอาหารรสจัด\nจากผลสำรวจ คนไทยมีค่าเฉลี่ยในการ\nบริโภคโซเดียมมากถึง 4,400 mg ต่อวัน</string>
+    <string name="slide_text4">ส่งผลให้คนไทยมีภาวะ\nความดันโลหิตสูงประมาณ 11.5 ล้านคน\nและเป็นโรคไตเรื้อรังประมาณ 8 ล้านคน</string>
+    <string name="slide_text5">มาลดการกินเค็มกันเถอะ !!</string>
+    <string name="loading">กำลังโหลด กรุณารอ</string>
+
+
+    <string-array name="imgs">
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+        <item>a4</item>
+        <item>a5</item>
+        <item>a6</item>
+    </string-array>
+    <string-array name="title">
+        <item>Soduim tips</item>
+        <item>Soduim tips</item>
+        <item>Soduim tips</item>
+        <item>Soduim tips</item>
+        <item>Soduim tips</item>
+        <item>Soduim tips</item>
+    </string-array>
+
+    <string-array name="genger_list">
+        <item>ชาย</item>
+        <item>หญิง</item>
+    </string-array>
+
+    <string-array name="method">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+    </string-array>
+
+</resources>
+

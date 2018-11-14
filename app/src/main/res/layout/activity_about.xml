@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="th.ac.cmu.camt.sodiumconqueror.activity.AboutActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarAbout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_below="@+id/toolbarAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/appname"
+        android:freezesText="true"
+        android:text="Soduim Conqueror"
+        android:layout_marginLeft="50dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@+id/appname"
+        android:freezesText="true"
+        android:text="Version 1.0"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginRight="50dp"
+        android:freezesText="true"
+        android:text="The term vice (SMS). It has grown to include multimedia messages (known as MMS) containing images, videos, and sound content, as well as ideograms known as emoji. The service itself has different colloquialisms depending on the region. It may simply be referred to as a text in North America, the United Kingdom, Australia, New Zealand and the Philippines, an SMS in most of mainland Europe, or an MMS or SMS in the Middle East, Africa, and Asia. The sender of a text message is commonly referred to as a texter."
+        android:layout_marginLeft="50dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="132dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textTerm"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:layout_marginTop="445dp"
+        android:freezesText="true"
+        android:text="@string/term_text"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textPrivate"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:layout_marginTop="474dp"
+        android:freezesText="true"
+        android:text="Privacy Policy"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

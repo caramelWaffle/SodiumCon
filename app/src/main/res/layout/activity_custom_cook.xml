@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="th.ac.cmu.camt.sodiumconqueror.activity.CustomCookActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarCustom"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <EditText
+        android:imeOptions="actionDone"
+        android:id="@+id/Customfoodname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarCustom"
+        android:layout_margin="16dp"
+        android:hint="@string/food_name"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/textNoob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Customfoodname"
+        android:layout_margin="20dp"
+        android:freezesText="true"
+        android:text="@string/seasoning"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/pickerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@+id/textNoob"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <com.aigestudio.wheelpicker.WheelPicker
+            android:id="@+id/pickerMethod"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="2"
+            app:wheel_atmospheric="true"
+            app:wheel_curved="true"
+            app:wheel_item_text_color="@color/blackWheel"
+            app:wheel_item_text_size="20sp" />
+
+
+        <com.aigestudio.wheelpicker.WheelPicker
+            android:id="@+id/pickerNumber"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:wheel_atmospheric="true"
+            app:wheel_curved="true"
+            app:wheel_item_text_color="@color/blackWheel"
+            app:wheel_item_text_size="20sp" />
+
+        <com.aigestudio.wheelpicker.WheelPicker
+            android:id="@+id/pickerUnit"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="2"
+            app:wheel_atmospheric="true"
+            app:wheel_curved="true"
+            app:wheel_item_text_color="@color/blackWheel"
+            app:wheel_item_text_size="20sp" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/textNoob"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="97dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/line_orange" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/textNoob"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="130dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/line_orange" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/pickerLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/grey_line" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignTop="@+id/pickerLayout"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/grey_line" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pickerLayout"
+        android:layout_marginTop="240dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/tvv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="@string/seasoning2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="@string/amount"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="@string/unit"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:freezesText="true"
+        android:textStyle="bold"
+        android:layout_marginRight="16dp"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textNoob"
+        android:textSize="16dp"
+        android:text="@string/sodium_amount_3000_mg"
+        android:id="@+id/text_total"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content" />
+
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fabCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_done_white"
+        fab:fab_colorNormal="@color/colorPrimary"
+        fab:fab_colorPressed="@color/colorPrimaryDark"
+        fab:fab_colorRipple="@android:color/white" />
+
+</RelativeLayout>

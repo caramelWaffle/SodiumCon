@@ -1,0 +1,149 @@
+<resources>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="app_name">Sodium Conqueror</string>
+    <string name="openDrawer">Open menu</string>
+    <string name="closeDrawer">Close menu</string>
+    <string name="start">GOT IT</string>
+    <string name="next">NEXT</string>
+    <string name="Heal_name">Health Information</string>
+    <string name="addfood">Add to cooked food</string>
+    <string name="title">Terms and conditions</string>
+    <string name="agree">AGREE</string>
+    <string name="disagree">Disagree</string>
+    <string name="termcontent">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+1914 translation by H. Rackham
+
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+
+Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+
+"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="input_hint">food name</string>
+    <string name="input_prefill"></string>
+    <string name="terms_and_condition"><u>Terms and Condition.</u></string>
+    <string name="eat">Do you want to eat</string>
+    <string name="term_text"><![CDATA[Terms & Condition]]></string>
+    <string name="sodium">SODIUM</string>
+    <string name="conqueror">CONQUEROR</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="by_continuing_you_agree_to_the">By continuing you agree to the</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="disease_identification">Disease Identification</string>
+    <string name="submit">SUBMIT</string>
+    <string name="Gender">Gender</string>
+    <string name="miligrams_left">Milligrams left</string>
+    <string name="today_eat">TODAY EAT</string>
+    <string name="diary">DIARY</string>
+    <string name="eat_now">EAT NOW</string>
+    <string name="generic_food">Generic Food</string>
+    <string name="thai_food">Thai Food</string>
+    <string name="not_available">Not Available</string>
+    <string name="health_information">Health Information</string>
+    <string name="basic_information">Basic Information</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="about">About</string>
+    <string name="setting">Setting</string>
+    <string name="log_out">Log out</string>
+    <string name="Overview">Overview</string>
+    <string name="food">Food</string>
+    <string name="fact">Fact</string>
+    <string name="Leaderboard">Leaderboard</string>
+    <string name="Generic_Food">Generic Food</string>
+    <string name="Genneric_fav">FAVOURITE</string>
+    <string name="find_you_favourite_menu_here">find your favourite menu here</string>
+    <string name="find_your_first_menu_here">find your first menu here</string>
+    <string name="dwant_to_eat">"Do you want to eat "</string>
+    <string name="ok2">OK</string>
+    <string name="cancel2">CANCEL</string>
+    <string name="generic">GENERIC</string>
+    <string name="add_to_diary">" added to Diary"</string>
+    <string name="what_do_you_want">What do you want to eat?</string>
+    <string name="go">GO</string>
+    <string name="result">"Result of "</string>
+    <string name="add">Add \"</string>
+    <string name="to_list">\" to list ?</string>
+    <string name="add2">ADD</string>
+    <string name="cancel3">CANCEL</string>
+    <string name="load">Searching. Please wait...</string>
+    <string name="fav">FAVOURITE</string>
+    <string name="thai_foods">Thai Food</string>
+    <string name="find_your_favourite_menu_here">find your favourite menu here</string>
+    <string name="cook_your_first_menu_here">Cook your first menu here</string>
+    <string name="want_to_eat">"Do you want to eat "</string>
+    <string name="ok3">OK</string>
+    <string name="cancel4">CANCEL</string>
+    <string name="food_name">Food name</string>
+    <string name="seasoning">Seasoned</string>
+    <string name="sodium_amount">Sodium amount : </string>
+    <string name="sodium_amount_3000_mg">Sodium amount : 3000 mg</string>
+    <string name="seasoning2">Seasoning</string>
+    <string name="amount">Amount</string>
+    <string name="unit">Unit</string>
+    <string name="abouts">About</string>
+    <string name="Account_setting">Account Setting</string>
+    <string name="Diary">Diary</string>
+    <string name="Privacy">Privacy Policy</string>
+    <string name="terms">Term and conditions</string>
+    <string name="Todat_eat">Today Eat</string>
+    <string name="Add_food">Add food to list</string>
+    <string name="what">" ?"</string>
+    <string name="skip">SKIP</string>
+    <string name="next2">NEXT</string>
+    <string name="clear_all">Clear All</string>
+    <string name="settingmenu">Setting</string>
+    <string name="delete">Delete</string>
+    <string name="language">Language</string>
+    <string name="Lang">English</string>
+    <string name="addlang">Select Language</string>
+    <string name="start2">GOT IT</string>
+    <string name="slide_text1">The sodium intake of our body\nshould not exceed 2,400 mg per day.</string>
+    <string name="slide_text2">Meanwhile, a tea spoon of salt contains as high as 2000 mg of sodium.</string>
+    <string name="slide_text3">Thai people have the habit of consuming foods with heavy tastes.\nAccording to a study, the average sodium intake of Thai people is as high as 4,400 mg per day.</string>
+    <string name="slide_text4">As a result, approximately 11.5 million Thais suffer hypertension, and 8 million suffers chronic kidney disease.</string>
+    <string name="slide_text5">Let’s eat less salty!</string>
+    <string name="loading">Loading, please wait</string>
+
+    <string-array name="lang_items">
+        <item>English</item>
+        <item>ภาษาไทย</item>
+    </string-array>
+
+    <string-array name="imgs">
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+        <item>a4</item>
+        <item>a5</item>
+        <item>a6</item>
+    </string-array>
+    <string-array name="title">
+        <item>Soduim tips</item>
+        <item>Soduim tips</item>
+        <item>Soduim tips</item>
+        <item>Soduim tips</item>
+        <item>Soduim tips</item>
+        <item>Soduim tips</item>
+    </string-array>
+
+    <string-array name="genger_list">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="method">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+    </string-array>
+
+</resources>
+

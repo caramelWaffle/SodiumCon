@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/d1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:freezesText="true"
+        android:layout_below="@+id/iconDiscount"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="ร่างกายของคนเรา ไม่ควรได้รับ\nโซเดียมเกิน 2,400mg ต่อวัน"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

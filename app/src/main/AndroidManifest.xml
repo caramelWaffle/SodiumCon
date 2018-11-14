@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="th.ac.cmu.camt.sodiumconqueror">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.StartActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BasicInfomation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HealInfomationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.ToDayEatActivity" />
+        <activity android:name=".activity.DiaryActivity" />
+        <activity android:name=".activity.GenericFoodActivity" />
+        <activity android:name=".activity.ThaiFoodActivity" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.TermActivity" />
+        <activity android:name=".activity.CustomCookActivity" />
+        <activity android:name=".activity.AccountSettingActivity" />
+        <activity android:name=".activity.AboutActivity" />
+        <activity android:name=".activity.PrivacyActivity" />
+        <activity android:name=".activity.SettingActivity" />
+        <activity android:name=".activity.TutorialActivity"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="78a7b095854d7a5a1cde9bbce93aac68970882dd" />
+    </application>
+
+</manifest>

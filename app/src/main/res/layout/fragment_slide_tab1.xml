@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+   >
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <!-- CYCLE -->
+    <RelativeLayout
+
+                android:id="@+id/cycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="32dp">
+
+                <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                    android:id="@+id/cir"
+                    android:layout_width="260dp"
+                    android:layout_height="260dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    app:cpb_background_progressbar_color="#DEDEDE"
+                    app:cpb_background_progressbar_width="35dp"
+                    app:cpb_progress="75"
+                    app:cpb_progressbar_color="@color/colorPrimary"
+                    app:cpb_progressbar_width="35dp"
+
+                    />
+
+
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:id="@+id/textLeft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:freezesText="true"
+                        android:gravity="center"
+                        android:text="600"
+                        android:textColor="#000000"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/tvmilli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textLeft"
+                        android:layout_marginTop="-4dp"
+                        android:freezesText="true"
+                        android:text="@string/miligrams_left"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+
+                        android:id="@+id/tvNet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvmilli"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:freezesText="true"
+                        android:text="Eaten  1,800"
+                        android:textColor="#95989A"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvLimit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvNet"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:freezesText="true"
+                        android:text="Limit  2,400"
+                        android:textColor="#95989A"
+                        android:textSize="16sp" />
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+    <!--Button Layout -->
+
+    <LinearLayout
+        android:id="@+id/btn_groub1"
+        android:layout_below="@+id/cycle"
+        android:layout_alignRight="@+id/btn_eatNow"
+        android:layout_alignLeft="@+id/btn_eatNow"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+            <!-- BUTTON TODAY EAT -->
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:id="@+id/btn_today"
+                android:layout_width="145dp"
+                android:layout_height="50dp"
+                android:background="@drawable/seletor_white_border"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/t_todayeeat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/today_eat"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <!-- BUTTON DIARY -->
+
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+
+                    android:layout_weight="1"
+                    android:id="@+id/btn_diary"
+                    android:layout_width="145dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/seletor_white_border"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/d_dairy" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/diary"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    <!-- BUTTON LINE 2 -->
+    <LinearLayout
+
+            android:layout_below="@+id/btn_groub1"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btn_eatNow"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/seletor_orange"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/e_eatnnow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/eat_now"
+                android:textColor="#FFFFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

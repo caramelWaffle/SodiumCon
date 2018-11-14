@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <!-- BTN FAST FOOD -->
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:id="@+id/btn_fast"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_food"
+        android:clickable="true">
+
+        <RelativeLayout
+
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+
+            <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/ImgFast"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/fastfood" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ImgFast"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:freezesText="true"
+                android:text="@string/generic_food"
+                android:textColor="#95989A"
+                android:textSize="22sp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- BTN COOKED FOOD -->
+    <RelativeLayout
+        android:layout_weight="1"
+        android:background="@drawable/selector_food"
+        android:layout_toRightOf="@+id/btn_fast"
+        android:clickable="true"
+        android:id="@+id/btn_cooked"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_margin="16dp"
+        android:layout_centerVertical="true"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"  >
+
+
+
+        <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/ImgCooked"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:scaleType="centerInside"
+            android:layout_marginTop="39dp"
+            android:src="@drawable/thai_food_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ImgCooked"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:freezesText="true"
+            android:text="@string/thai_food"
+            android:textColor="#95989A"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
